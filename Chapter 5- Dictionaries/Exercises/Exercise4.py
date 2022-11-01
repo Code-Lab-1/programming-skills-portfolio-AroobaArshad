@@ -5,7 +5,7 @@ Rivers = {
     }
 
 for river, country in Rivers.items():
-  print (f"The {river.title()} flows through {country.title()}.")
+  print ("The " + river + " flows through " + country + ".")
 
 print ("\nRivers:")
 for river in Rivers.keys():
